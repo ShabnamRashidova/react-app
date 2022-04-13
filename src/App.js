@@ -7,11 +7,11 @@ import "./css/style.css";
 import products from "./components/product.json";
 import {BrowserRouter as Router ,Route, Routes } from "react-router-dom";
 const App = () => {
-  const [money, setMoney] = useState(3000);
+  const [money] = useState(3000);
   const [basket, setBasket] = useState([]);
   const [total, setTotal] = useState(0);
   useEffect(() => {
-    console.log(basket);
+  
     setTotal(
       basket.reduce((acc, item) => {
         return acc + item.amount * products.find((p) => p.id === item.id).price;
