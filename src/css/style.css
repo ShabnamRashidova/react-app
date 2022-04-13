@@ -1,0 +1,37 @@
+.header{
+    position: sticky;
+    top:0;
+    padding: 15px;
+    z-index: 100;
+    background-color: #eee;
+    
+}
+.header-title{
+     color: #000;
+     font-size: 24px;
+     margin-left: 40px;
+     font-weight: 600;
+    
+}
+ a{
+    text-decoration: none !important;
+    color:#fff !important;
+    font-weight: 500; 
+}
+
+
+.product .amount{
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.623);
+}
+
+   .basket .actions{
+       border: 1px solid #ccc;
+        padding: 20px 10px;
+      
+        
+}
+.product-img{
+margin: 0 auto;
+    width: 50px;
+}
